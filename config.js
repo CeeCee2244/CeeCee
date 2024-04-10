@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || "https://telegra.ph/file/74fe969b16562689a33b1.jpg"                       // put your app url here,
+global.appUrl=process.env.APP_URL || "https://telegra.ph/file/fbd92223401b9e62521bb.jpg"                       // put your app url here,
 global.email ="emmanuelagbonye@gmail.com"
 global.location="Nigeria,Ogunstate."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://steezy_maxwell:Steezy._.and._.Maxwell@maxwellandsteezy.wbmgyr4.mongodb.net/?retryWrites=true&w=majority"
@@ -16,8 +16,8 @@ global.DATABASE_URI=process.env.DATABASE_URL || "mongodb://uwrr2obvrb4kbwnrvimy:
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "AFRICA/LAGOS";
 global.github=process.env.GITHUB|| "https://github.com/M-cross1/Suhail-Md/tree/main";
-global.gurl  =process.env.GURL  || "https://wa.me/2349120730021";
-global.website=process.env.GURL || "https://wa.me/2349120730021" ; 
+global.gurl  =process.env.GURL  || "https://wa.me/2347025183237";
+global.website=process.env.GURL || "https://wa.me/2347025183237" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/ac60b32f3fcb180747985.jpg" ; // SET LOGO FOR IMAGE 
 
 
@@ -38,7 +38,7 @@ global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable W
 global.warncount = process.env.WARN_COUNT || 5,
 global.disablepm = process.env.DISABLE_PM || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/ac60b32f3fcb180747985.jpg",
+global.userImages= process.env.USER_IMAGES|| "https://telegra.ph/file/fbd92223401b9e62521bb.jpg",
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -52,7 +52,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2349120730021";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2347025183237";
 
 
 
@@ -63,12 +63,12 @@ module.exports = {
   HANDLERS : process.env.PREFIX || "✅",
   BRANCH : process.env.BRANCH   || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "✙𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●✙" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "▀▄▀▄CEE CEE▄▀▄▀" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author: process.env.PACK_AUTHER || "𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳",
+  author: process.env.PACK_AUTHER || "▀▄▀▄CEE CEE▄▀▄▀",
   packname: process.env.PACK_NAME || "₭ł₦₲ ₥₵ⱤØ₴₴",
-  botname : process.env.BOT_NAME  || "⫷𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫⫸",
-  ownername:process.env.OWNER_NAME|| "𖣘𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫♡●",
+  botname : process.env.BOT_NAME  || "▀▄▀▄CEECEE-MD▄▀▄▀",
+  ownername:process.env.OWNER_NAME|| "▀▄▀▄CEE CEE▄▀▄▀",
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 
   errorChat: process.env.ERROR_CHAT || "",
@@ -84,7 +84,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "https://api.elevenlabs.io/v1/text-to-speech/<voice-id>",
   WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
-  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "𝑴𝑨𝑿𝑾𝑬𝑳𝑳",
+  LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "CEECEE",
 
 
 
